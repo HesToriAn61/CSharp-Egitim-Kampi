@@ -6,7 +6,7 @@ using System.Runtime.InteropServices;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Prep_Unity
+namespace _01_MainSubjects
 {
     internal class Program
     {
@@ -26,6 +26,7 @@ namespace Prep_Unity
             //Console.WriteLine();
             //Console.WriteLine("**** MENÜ ****");
             #endregion
+
             #region String Değişkenler
             //string name;
             //name = "Hüseyin Taha";
@@ -68,7 +69,8 @@ namespace Prep_Unity
             //Console.WriteLine("-----------------------------------------------");
 
             #endregion
-            #region İnteger Değişkenler
+
+            #region Integer Değişkenler
             //int num;
             //num = 61;
             //Console.WriteLine(num);
