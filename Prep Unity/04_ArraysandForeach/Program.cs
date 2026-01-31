@@ -11,7 +11,7 @@ namespace _04_ArraysandForeach
     {
         static void Main(string[] args)
         {
-            #region Diziler
+            #region Arrays
 
             //string[] cities = new string[5];
             //cities[0] = "Trabzon";
@@ -46,13 +46,13 @@ namespace _04_ArraysandForeach
             //Console.WriteLine(index);
 
             //int[] nums = { 5, 8, 15, 2, 1, 4, 11, 24, 61 };
-            //Console.WriteLine("Dizinin en büyük elemanı = " + nums.Max() + " Dizinin en küçük elemanı = " + nums.Min());
+            //Console.WriteLine("The biggest member of the array = " + nums.Max() + " The smallest member of the array = " + nums.Min());
 
             //int[] nums = new int[5];
 
             //for (int i = 0; i < nums.Length; i++)
             //{
-            //    Console.Write($"Dizinin {i + 1}. elemanını giriniz: ");
+            //    Console.Write($"Enter the {i + 1}.member of array: ");
             //    nums[i]=  int.Parse(Console.ReadLine());
             //}
 
@@ -82,7 +82,7 @@ namespace _04_ArraysandForeach
             //    Console.WriteLine(i);
             //}
 
-            //string word = "Merhaba";
+            //string word = "Hello";
 
             //foreach (char c in word)
             //{
@@ -93,51 +93,51 @@ namespace _04_ArraysandForeach
 
             #endregion
 
-            #region Sınav Not Uygulaması
+            #region Exam Note Application
 
-            Console.WriteLine("***** Öğrenci Sınav Durumu *****");
-            Console.WriteLine();
-            Console.WriteLine();
-            Console.WriteLine("----------------------------------");
-            Console.Write("Öğrenci sayısını giriniz: ");
-            int studentCount = int.Parse(Console.ReadLine());
-            string[] studentNames = new string[studentCount];
-            double[] studentExamAvrg = new double[studentCount];
+            //Console.WriteLine("***** Student Exam Status *****");
+            //Console.WriteLine();
+            //Console.WriteLine();
+            //Console.WriteLine("----------------------------------");
+            //Console.Write("Enter the student counts: ");
+            //int studentCount = int.Parse(Console.ReadLine());
+            //string[] studentNames = new string[studentCount];
+            //double[] studentExamAvrg = new double[studentCount];
 
-            for (int i = 0; i < studentCount; i++)
-            {
-                Console.Write($"{i + 1}.öğrencinin ismini giriniz: ");
-                studentNames[i] = Console.ReadLine();
+            //for (int i = 0; i < studentCount; i++)
+            //{
+            //    Console.Write($"Enter the {i + 1}.student name: ");
+            //    studentNames[i] = Console.ReadLine();
 
-                double totalExamResult = 0;
+            //    double totalExamResult = 0;
 
-                for (int j = 0; j < 3; j++)
-                {
-                    Console.Write($"{studentNames[i]} isimli öğrencinin {j + 1}.notunu giriniz: ");
-                    int score = int.Parse(Console.ReadLine());
-                    totalExamResult += score;
-                }
-                studentExamAvrg[i] = totalExamResult / 3;
-            }
-            Console.WriteLine();
-            Console.WriteLine("----------------------------------");
+            //    for (int j = 0; j < 3; j++)
+            //    {
+            //        Console.Write($"Enter the {j + 1}.note of which name is {studentNames[i]} : ");
+            //        int score = int.Parse(Console.ReadLine());
+            //        totalExamResult += score;
+            //    }
+            //    studentExamAvrg[i] = totalExamResult / 3;
+            //}
+            //Console.WriteLine();
+            //Console.WriteLine("----------------------------------");
 
-            for (int k = 0; k < studentCount; k++)
-            {
+            //for (int k = 0; k < studentCount; k++)
+            //{
 
-                if (studentExamAvrg[k] < 50)
-                {
-                    Console.WriteLine($"{studentNames[k]} isimli öğrenci dersten kalmıştır." + " Ortalama: " + studentExamAvrg[k]);
-                }
-                else
-                {
-                    Console.WriteLine($"{studentNames[k]} isimli öğrenci dersi geçmiştir." + " Ortalama: " + studentExamAvrg[k]);
+            //    if (studentExamAvrg[k] < 50)
+            //    {
+            //        Console.WriteLine($"The student named {studentNames[k]} failed the course." + " Average: " + studentExamAvrg[k]);
+            //    }
+            //    else
+            //    {
+            //        Console.WriteLine($"The student named {studentNames[k]}  passed the course." + " Average: " + studentExamAvrg[k]);
 
-                }
-            }
-            Console.WriteLine("----------------------------------");
+            //    }
+            //}
+            //Console.WriteLine("----------------------------------");
 
-            Console.WriteLine();
+            //Console.WriteLine();
 
 
             #endregion

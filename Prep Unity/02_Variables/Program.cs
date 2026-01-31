@@ -11,7 +11,7 @@ namespace _02_Variables
     {
         static void Main(string[] args)
         {
-            #region Double Değişkenler
+            #region Double Variatons
 
             ////double num;
             ////num = 2.5;
@@ -49,7 +49,7 @@ namespace _02_Variables
 
             #endregion
 
-            #region Char Değişkenler
+            #region Char Variations
 
             //char letter;
             //letter = 'a';
@@ -57,7 +57,7 @@ namespace _02_Variables
 
             #endregion
 
-            #region Klavyeden String Veri Girişleri
+            #region String Data Input From the Keyboard
 
             //string passengerName , passengerSurname , passengerAge , passengerID ;
 
@@ -84,7 +84,7 @@ namespace _02_Variables
 
             #endregion
 
-            #region Klavyeden Tam Sayı Girişleri ve Dönüşümler
+            #region Keyboard Inputs of Integers and Conversions
 
             //int number;
             //number = int.Parse(Console.ReadLine());
@@ -123,7 +123,7 @@ namespace _02_Variables
 
             #endregion
 
-            #region Klavyeden Ondalıklı Sayı Girişleri
+            #region Keyboard Decimal Number Inputs
 
             //double exam1, exam2, exam3, result;
 
@@ -142,7 +142,7 @@ namespace _02_Variables
 
             #endregion
 
-            #region Klavyeden Karakter Girişleri
+            #region  Keyboard Character Inputs
 
             //char gender;
 

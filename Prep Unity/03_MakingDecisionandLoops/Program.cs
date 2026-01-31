@@ -20,12 +20,12 @@ namespace _03_MakingDecisionandLoops
 
             //if (password == "Trabzonspor")
             //{
-            //    Console.WriteLine("Şifre doğru");
+            //    Console.WriteLine("Password is true");
             //}
 
             //else
             //{
-            //    Console.WriteLine("Şifre yanlış");
+            //    Console.WriteLine("Password is false");
             //}
 
             //string capital, country;
@@ -38,9 +38,9 @@ namespace _03_MakingDecisionandLoops
 
             //if (country == "türkiye" && /* ||*/ capital == "ankara")
             //{
-            //    Console.Write("Eşleşme doğru");
+            //    Console.Write("Match is true");
             //}
-            //else { Console.WriteLine("Eşleşme yanlış"); }
+            //else { Console.WriteLine("Match is wrong"); }
 
 
 
@@ -49,15 +49,15 @@ namespace _03_MakingDecisionandLoops
 
             //if (number == 61)
             //{
-            //    Console.WriteLine("Sayı doğru");
+            //    Console.WriteLine("Number is true");
             //}
-            //else { Console.WriteLine("Sayı yanlış"); }
+            //else { Console.WriteLine("Number is false"); }
 
 
             //int exam1, exam2, exam3, average;
-            //string result = "HATA!!";
+            //string result = "ERROR!!";
 
-            //Console.Write("Notlarınızı giriniz: ");
+            //Console.Write("Enter your scores: ");
             //exam1 = int.Parse(Console.ReadLine());
             //exam2 = int.Parse(Console.ReadLine());
             //exam3 = int.Parse(Console.ReadLine());
@@ -66,19 +66,19 @@ namespace _03_MakingDecisionandLoops
 
             //if (average > 0 && average < 50)
             //{
-            //    result = "Sonuç berbat";
+            //    result = "Result is disgusting";
             //}
             //else if (average >= 50 && average < 75)
             //{
-            //    result = "Sonuç orta";
+            //    result = "Result is meh";
             //}
             //else if (average >= 75 && average < 85)
             //{
-            //    result = "Sonuç iyi";
+            //    result = "Result is good";
             //}
             //else if (average >= 85 && average <= 100)
             //{
-            //    result = "Sonuç çok iyi";
+            //    result = "Result is very good";
             //}
             //Console.WriteLine(result);
 
@@ -87,7 +87,7 @@ namespace _03_MakingDecisionandLoops
 
             #endregion
 
-            #region Hesap Makinesi
+            #region Calculator
 
             //int num1, num2, result;
 
@@ -120,13 +120,13 @@ namespace _03_MakingDecisionandLoops
             //        break;
 
             //    default:
-            //        Console.WriteLine("Hatalı operatör");
+            //        Console.WriteLine("Wrong operator");
             //        break;
             //}
 
             #endregion
 
-            #region For Döngüsü
+            #region For Loop
 
             //for (int i = 0; i <= 5; i++)
             //{
@@ -148,7 +148,7 @@ namespace _03_MakingDecisionandLoops
 
             #endregion
 
-            #region While Döngüsü
+            #region While Loop
 
             //int result = 0;
             //int i = 10;
@@ -167,25 +167,25 @@ namespace _03_MakingDecisionandLoops
 
             #endregion
 
-            #region Örnek Sınav Sorusu
+            #region Example
 
-            //// 3 basamaklı sayının basamaklarını topla
+            //// Add the digits of a 3-digit number.
 
-            //int sayi = 261;
-            //int sonuç = 0;
+            //int number = 261;
+            //int result = 0;
 
-            //while (sayi > 0) {
+            //while (number > 0) {
 
-            //    sonuç += sayi % 10; 
-            //    sayi = sayi / 10;
+            //    result += number % 10; 
+            //    number = number / 10;
 
             //}
 
-            //Console.WriteLine(sonuç);
+            //Console.WriteLine(result);
 
             #endregion
 
-            #region Yıldızlarla Dik Üçgen Yapma
+            #region Making a Right Triangle with Stars
 
             //int count = 0;
 
@@ -201,7 +201,7 @@ namespace _03_MakingDecisionandLoops
 
             #endregion
 
-            #region Yıldızlarla Piramit Yapma
+            #region Building a Pyramid with Stars
 
             //int n = 5;
 
