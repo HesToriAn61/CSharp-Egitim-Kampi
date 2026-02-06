@@ -136,8 +136,40 @@ namespace _01_MainSubjects
 
             #endregion
 
+            
+            Random rastgele = new Random();
 
-            Console.Read();
+ 
+            int sayi = rastgele.Next(1, 21);
+
+            int tahmin;
+           
+            for (int i = 0; i < 5; i++) {
+
+                Console.Write($"{i + 1}. tahmini giriniz: ");
+                tahmin = int.Parse(Console.ReadLine());
+                if (sayi == tahmin)
+                {
+                    Console.WriteLine("Sayıyı doğru bildiniz.");
+                    break;
+
+                }
+                if (sayi < tahmin)
+                {
+                    Console.WriteLine("Lütfen daha küçük bir sayi giriniz.");
+                }
+                if (sayi > tahmin)
+                {
+                    Console.WriteLine("Lütfen daha büyük bir sayi giriniz.");
+                }
+
+                }
+            Console.WriteLine("Sayi = " + sayi);
+
+
+
+
+                Console.Read();
         }
     }
 }
