@@ -13,6 +13,7 @@ This repository contains my progress and projects developed during the "C# Educa
 | **05_Functions** | Methods | Defining methods, return values, and parameters. |
 | **06_DatabaseProject** | SQL Connection | Establishing connection with MSSQL using ADO.NET. |
 | **07_DatabaseCrud** | CRUD Ops | Create, Read, Update, Delete operations on SQL Server. |
+| **08_LayeredArchitecture** | N-Tier Architecture | Implementing a 4-layer architecture (Business, DataAccess, Entity, Presentation) for scalable applications. |
 
 ## 🛠️ Technologies Used
 * **Language:** C# (.NET Framework)
