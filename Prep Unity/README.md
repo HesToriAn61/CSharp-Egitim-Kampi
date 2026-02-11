@@ -11,7 +11,8 @@ This repository contains my progress and projects developed during the "C# Educa
 | **03_MakingDecisionandLoops** | Logic | If-Else, Switch-Case structures, and loops. |
 | **04_ArraysandForeach** | Arrays | Advanced loops (foreach) and array management. |
 | **05_Functions** | Methods | Defining methods, return values, and parameters. |
-| **06-07_DatabaseOperations** | SQL & CRUD | Connection with MSSQL and full CRUD operations using ADO.NET. |
+| **06_DatabaseProject** | SQL Connection | Establishing connection with MSSQL using ADO.NET. |
+| **07_DatabaseCrud** | CRUD Ops | Create, Read, Update, Delete operations on SQL Server. |
 
 ## 🛠️ Technologies Used
 * **Language:** C# (.NET Framework)
