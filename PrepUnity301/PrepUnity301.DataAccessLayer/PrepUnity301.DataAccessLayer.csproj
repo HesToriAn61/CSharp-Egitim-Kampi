@@ -8,4 +8,8 @@
     <ProjectReference Include="..\PrepUnity301.EntityLayer\PrepUnity301.EntityLayer.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="EntityFramework\" />
+  </ItemGroup>
+
 </Project>
